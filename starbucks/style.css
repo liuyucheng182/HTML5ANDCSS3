@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    font: inherit;
+}
+/*通用样式*/
+body{
+    background-color: #ffffff;
+    font: 14px 微软雅黑,黑体,Verdana,Arial,sans-serif;
+    color: #333333;
+    border-top: 8px solid #006f47;
+}
+ul{
+    list-style-type: none;
+}
+/*外层盒子*/
+.wrap{
+    width:960px;
+    margin:0 auto;
+}
+/*头部*/
+.top-header{
+    margin: 10px 0;
+    height: 120px;
+}
+/*logo*/
+.starbucks-logo{
+    float: left;
+    margin: 20px;
+}
+/*导航*/
+.top-menu{
+    float: left;
+    margin-top: 83px;
+    margin-left: 30px;
+}
+.top-menu ul li{
+    display: inline;
+    background-color: antiquewhite;
+    padding: 5px 10px;
+    margin: 0px 5px;
+}
+.top-menu ul li a:link, .top-menu ul li a:visited{
+    color: #006f47;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*侧边栏*/
+.left-aside{
+    float:left;
+    width:350px;
+}
+/*主内容区域*/
+main{
+    background: blueviolet url("images/background.gif") top left;
+    padding: 20px;
+    margin-left: 360px;
+}
+/*页脚*/
+.page-footer{
+    clear: both;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: rgba(131, 59, 39, 0.57);
+    color: gainsboro;
+    text-align: center;
+    text-size: 90%;
+}
